@@ -1,0 +1,105 @@
+body{
+    background-color: #313338;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #1e1f22;
+    height: 27px;
+    width: 100%;
+    position: fixed;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+}
+header p{
+    color: #949ba4;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding-left: 1vw;
+}
+main{
+    display: flex;
+}
+main #navBar{
+    background-color: #1e1f22;
+    color: aliceblue;
+    height: 100vh;
+    width: 60px;
+    padding-top: 40px;
+}
+main #navBar #discordLogo{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+main #navBar #server1{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px auto 0 auto;
+}
+main #navBar #discordLogo img{
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+}
+main #navBar #discordLogo:hover{
+    border-radius: 35%;
+}
+main #navBar #server1:hover{
+    border-radius: 35%;
+}
+main #second{
+    background-color: #2b2d31;
+    width: 12vw;
+    height: 100vh;
+    padding-top: 40px;
+
+}
+#second #second-top {
+    border-width: 0 0 1px 0;
+    padding: 0 0 10px 0;
+    border-style: solid;
+    border-color: black;
+}
+#second #search{
+    background-color: #1e1f22 ;
+    color: #949ba4;
+    height: 25px;
+    width: 10vw;
+    margin:0 0 0 1vw;
+    border: none;
+    border-radius: 5%;
+}
+main #third{
+    width: 60vw;
+    height: 100vh;
+    padding-top: 40px;
+}
+#third #third-top{
+    border-width: 0 0 1px 0;
+    padding: 0 0 10px 0;
+    display: flex;
+    border-style: solid;
+    border-color: black;
+}
+#third-top div{
+
+}
+#third-top div button{
+    background-color:  #313338;
+    color:#949ba4 ;
+    width: 8vw;
+    border: none;
+    line-height: 25px;
+    font-size: 17px;
+    font-style: normal;
+    margin: auto 10px;
+}
+#third-top div button:active{
+    background-color: #393c41;
+}
